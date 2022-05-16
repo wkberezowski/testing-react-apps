@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { useEffect } from 'react/cjs/react.production.min';
 import Greeting from './Greeting';
 
 describe('Greeting component', () => {
